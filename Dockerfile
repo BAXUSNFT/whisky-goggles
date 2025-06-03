@@ -29,7 +29,6 @@ WORKDIR /app
 COPY app/ ./app/
 COPY data/ ./data/
 COPY yolov8n.pt .
-
 # Copy static frontend (now built)
 COPY frontend/dist/ ./frontend/dist/
 
